@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration form </title>
+  <link rel="stylesheet" href="form.css">
+ 
+</head>
+
+<body>
+   <form action="upload.php"" class="form">
+    <h1>Registration Form</h1>
+    <label for="Name"><b>First Name</b></label>
+    <input type="text" placeholder="Enter first name" name="name" required>
+    <br>
+
+    <label for="name"><b>Last Name</b></label>
+    <input type="text" placeholder="Enter Last name" name="name" required>
+    <br>
+
+    <label for="email"><b>Gmail</b></label>
+    <input type="text" placeholder="Please enter your email" name="email" required>
+    <br>
+
+    <label for="psw"><b>Create password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <br>
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Confirmation Password" name="psw" required>
+    <br>
+      <input type="submit" value="REGISTER">
+    
+      <div>
+      <h2>Select image to upload</h2>
+      <input type="file" name="fileToUpload" id="fileToUpload"> >
+      <input type="submit" value="Upload Image" name="submit">
+      </div>
+      <form class="container ">
+        <label>BIO</label>
+        <input class="input border-0" type="text">
+      </form>
+      
+   </form>
+
+
+  </form>
+
+</body>
+
+</html>
