@@ -1,0 +1,61 @@
+body
+{
+    background-image: url("457905888_521574200361179_2222123283684003040_n.jpg");
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.menu
+{
+    width: 80%;
+    background-color: rgb(65, 42, 7);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+h1
+
+{
+    text-align:center;
+    color: antiquewhite;
+}
+h2
+{
+    text-align: right;
+}
+
+.established
+{
+    font-style: italic;
+}
+
+.item p
+{
+    display: inline-block;
+    margin:5px 0;
+    font-size: 18px;
+    color: blanchedalmond;
+}
+
+.flavor,price
+{
+    width: 50%;
+    text-align:left;
+    color: whitesmoke;
+}
+
+
+hr
+{
+    height: 5px;
+    background-color: black;
+    border-color: black;
+}
+
+a
+{
+    color: black;
+
+}
+
